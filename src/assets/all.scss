@@ -1,0 +1,9 @@
+// // 匯入 bootstrap (方式一：整包匯入)
+// @import 'bootstrap/scss/bootstrap';
+
+
+
+// 匯入 bootstrap (方式二：只載入需要的)
+@import 'bootstrap/scss/functions';
+@import './variables';
+@import 'bootstrap/scss/bootstrap';
